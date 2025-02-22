@@ -1,0 +1,2 @@
+# obs_chromebook_modifier
+ChromebookでOBSを起動できるようにするPythonスクリプト

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # 置換対象のバイナリファイルのパス
 file_path = "/usr/bin/obs"

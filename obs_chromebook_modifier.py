@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
+import sys
+
+# 引数確認
+if len(sys.argv) != 2:
+    print(f"obsのファイルパスを指定してください")
+    exit(1)
+
 # 置換対象のバイナリファイルのパス
-file_path = "/usr/bin/obs"
+file_path = sys.argv[1]
 
 # ファイルの存在確認
 import os
